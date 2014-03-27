@@ -30,7 +30,6 @@ done
 OUTPUT=""
 while [ "$OUTPUT" = "" ]
 do
-    echo "...."
     OUTPUT=`node index.js $JSFIDDLE_ID $FULL_PATH_TO_PROJECT`
     echo $OUTPUT
     cd $FULL_PATH_TO_PROJECT
@@ -39,5 +38,4 @@ do
     git commit
     cd ..
 done
-echo "............"
 rm config.json
