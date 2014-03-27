@@ -1,3 +1,4 @@
+# Create the new directory
 read -p "Enter the project name: " FULL_PATH_TO_PROJECT
 while [ "$FULL_PATH_TO_PROJECT" = "" ]
 do
@@ -13,4 +14,27 @@ cd $FULL_PATH_TO_PROJECT
 git init
 echo "Inited a git repository in $FULL_PATH_TO_PROJECT directory".
 cd ..
-ls
+
+
+# Get the JSFiddle id/version
+read -p "Provide the JSFiddle id: " JSFIDDLE_ID
+while [ "$JSFIDDLE_ID" = "" ]
+do
+    echo "The JSFiddle id cannot be empty"
+    read -p "Provide the JSFiddle id: " JSFIDDLE_ID
+done
+
+# Run index.js
+OUTPUT=""
+while [ "$OUTPUT" = "" ]
+do
+    echo "...."
+    OUTPUT=`node index.js $JSFIDDLE_ID $FULL_PATH_TO_PROJECT`
+    echo $OUTPUT
+    cd $FULL_PATH_TO_PROJECT
+    git diff
+    git add .
+    git commit
+    cd ..
+done
+echo "............"
