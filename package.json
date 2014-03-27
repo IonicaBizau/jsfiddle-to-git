@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node index.js"
   },
+  "dependencies": {
+    "jsfiddle-api": "*"
+  },
   "keywords": [
     "jsfiddle",
     "api",
