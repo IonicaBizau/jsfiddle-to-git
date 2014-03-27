@@ -24,6 +24,8 @@ do
     read -p "Provide the JSFiddle id: " JSFIDDLE_ID
 done
 
+ echo '{"fiddleVersion":0}' > config.json
+
 # Run index.js
 OUTPUT=""
 while [ "$OUTPUT" = "" ]
@@ -38,3 +40,4 @@ do
     cd ..
 done
 echo "............"
+rm config.json
