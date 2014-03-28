@@ -6,7 +6,6 @@ Convert a JSFiddle to Git repository.
 ```sh
 $ git clone https://github.com/IonicaBizau/jsfiddle-to-git
 $ cd jsfiddle-to-git
-$ ./run.sh
 ```
 
 In the future it should be possible using:
@@ -16,6 +15,12 @@ $ sudo npm install -g jsfiddle-to-git
 ```
 
 ## How to use
+
+```sh
+$ ./run.sh
+```
+
+In the future you will be able to do:
 
 ```sh
 $ jsfiddle-to-git
