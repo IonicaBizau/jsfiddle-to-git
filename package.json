@@ -1,6 +1,6 @@
 {
   "name": "jsfiddle-to-git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a JSFiddle to Git repository.",
   "main": "index.js",
   "scripts": {
