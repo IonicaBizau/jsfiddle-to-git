@@ -33,9 +33,8 @@ do
     OUTPUT=`node index.js $JSFIDDLE_ID $FULL_PATH_TO_PROJECT`
     echo $OUTPUT
     cd $FULL_PATH_TO_PROJECT
-    git diff | less
     git add .
-    git commit
+    git commit --verbose
     cd ..
 done
 rm config.json
