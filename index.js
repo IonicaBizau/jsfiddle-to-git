@@ -13,7 +13,7 @@ JSFiddleApi.getFiddle (process.argv[2] + "/" + (config.fiddleVersion || ""), fun
     ++config.fiddleVersion;
     fs.writeFileSync ("./config.json", JSON.stringify (config, null, 4));
 
-    fs.writeFileSync (process.argv[3] + "/index.html", JSON.stringify (config, null, 4));
-    fs.writeFileSync (process.argv[3] + "/functions.js", JSON.stringify (config, null, 4));
-    fs.writeFileSync (process.argv[3] + "/style.css", JSON.stringify (config, null, 4));
+    fs.writeFileSync (process.argv[3] + "/index.html", fiddleObj.html);
+    fs.writeFileSync (process.argv[3] + "/functions.js", fiddleObj.js);
+    fs.writeFileSync (process.argv[3] + "/style.css", fiddleObj.css);
 });
