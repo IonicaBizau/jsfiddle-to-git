@@ -15,6 +15,9 @@
     "git",
     "node"
   ],
+  "bin": {
+    "jsfiddle-to-git": "./run.sh"
+  },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT"
 }
