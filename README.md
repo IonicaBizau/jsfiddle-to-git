@@ -1,6 +1,6 @@
-# jsfiddle-to-git [![Support this project][donate-now]][paypal-donations]
+# jsfiddle-to-git [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/jsfiddle-to-git.svg)](https://www.npmjs.com/package/jsfiddle-to-git) [![Downloads](https://img.shields.io/npm/dt/jsfiddle-to-git.svg)](https://www.npmjs.com/package/jsfiddle-to-git) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Convert a JSFiddle to Git repository.
+> Convert a JSFiddle to Git repository.
 
 ## Installation
 
