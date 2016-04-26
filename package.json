@@ -1,6 +1,6 @@
 {
   "name": "jsfiddle-to-git",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Convert a JSFiddle to Git repository.",
   "main": "index.js",
   "scripts": {
@@ -46,5 +46,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/jsfiddle-to-git/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/jsfiddle-to-git#readme"
+  "homepage": "https://github.com/IonicaBizau/jsfiddle-to-git#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
