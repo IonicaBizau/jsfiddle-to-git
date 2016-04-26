@@ -1,3 +1,11 @@
+#!/bin/bash
+
+if [[ $* == *--help* || $* == *-h* ]]
+then
+    echo "Usage: jsfiddle-to-git"
+    exit 0
+fi
+
 # Create the new directory
 read -p "Enter the project name: " FULL_PATH_TO_PROJECT
 while [ "$FULL_PATH_TO_PROJECT" = "" ]
