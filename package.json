@@ -1,6 +1,6 @@
 {
   "name": "jsfiddle-to-git",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Convert a JSFiddle to Git repository.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "bin": {
     "jsfiddle-to-git": "./run.sh"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "blah": {
     "documentation": [
@@ -51,12 +51,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
