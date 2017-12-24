@@ -13,7 +13,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g jsfiddle-to-git
+# Using npm
+npm install --global jsfiddle-to-git
+
+# Using yarn
+yarn global add jsfiddle-to-git
 ```
 
 
@@ -31,11 +35,13 @@ Usage: jsfiddle-to-git
 $ ./run.sh
 ```
 
+
 In the future you will be able to do:
 
 ```sh
 $ jsfiddle-to-git
 ```
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
